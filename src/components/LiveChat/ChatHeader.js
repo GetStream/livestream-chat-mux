@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Assets //
-import wowzaLogo from "assets/wowza_logo.svg";
+import muxLogo from "assets/mux_logo.png";
 
 class ChatHeader extends Component {
     render() {
@@ -9,7 +9,7 @@ class ChatHeader extends Component {
         return (
             <div className='chat-header'>
                 <div className='avatar-wrapper'>
-                    <img src={wowzaLogo} />
+                    <img src={muxLogo} />
                 </div>
                 <div>
                     <p className='chat-name'>{data.name}</p>

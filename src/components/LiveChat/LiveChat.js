@@ -20,8 +20,7 @@ const rocketKeywords = ["boom", "rocket", "liftoff"];
 const loveKeywords = ["love", "like", "amazing"];
 const wowKeywords = ["woah", "wow", "omg", "wtf"];
 
-const chatImg =
-    "https://media.licdn.com/dms/image/C4D0BAQE7CwCL3tSUHg/company-logo_200_200/0?e=2159024400&v=beta&t=un7iEFZMfnHSRZ8p9wsXVPu429opPpwH2vDVksLizKs";
+const chatImg = "https://mux.com/files/mux-video-logo-square.png";
 
 class LiveChat extends Component {
     static contextType = LivestreamContext;
@@ -39,9 +38,9 @@ class LiveChat extends Component {
         this.setRewardRef = this.setRewardRef.bind(this);
 
         this.state = {
-            channel: chatClient.channel("livestream", `live_stream_wowza`, {
+            channel: chatClient.channel("livestream", `live_stream_mux`, {
                 image: chatImg,
-                name: "Stream + Wowza",
+                name: "Stream + Mux",
             }),
             emoji: ["🚀"],
         };

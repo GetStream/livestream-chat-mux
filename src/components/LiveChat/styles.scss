@@ -33,7 +33,6 @@
         width: 40px;
         height: 40px;
         flex-basis: 40px;
-        border-radius: 50%;
         overflow: hidden;
         margin-right: 24px;
     }
@@ -42,7 +41,7 @@
         width: 40px;
         height: 40px;
         flex-basis: 40px;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 
@@ -90,7 +89,7 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(#fad961 0%, #f76b1c 100%);
+        background: linear-gradient(#ec1882 0%, #ff4a08 100%);
         mix-blend-mode: multiply;
         pointer-events: none;
     }

@@ -6,7 +6,7 @@ import fetch from "utils/fetch";
 
 // Assets //
 import StreamLogo from "assets/stream_logo.svg";
-import wowzaLogo from "assets/wowza_logo.svg";
+import muxLogo from "assets/mux_logo.png";
 
 // Components //
 import Credit from "components/Credit";
