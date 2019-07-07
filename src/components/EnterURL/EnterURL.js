@@ -11,8 +11,10 @@ const EnterURL = ({ onChange, setVideo, useFallback }) => (
         <img src={muxLogo} />
         <p>Enter a Mux stream url:</p>
         <input name='videoUrl' onChange={onChange} placeholder='Livestream URL' />
-        <button onClick={setVideo}>Start Streaming</button>
-        <button className='flat' onClick={useFallback}>
+        <button className='primary' onClick={setVideo}>
+            Start Streaming
+        </button>
+        <button className='primary flat' onClick={useFallback}>
             Use default fallback
         </button>
     </div>
